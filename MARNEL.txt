@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome to my Portfolio</title>
+  <link rel="stylesheet" href="C:\Users\Edwin Caraos\Desktop\3RD YR\web">
+  <style>
+    @import url("C:\Users\Edwin Caraos\Desktop\3RD YR\web");
+    <img src "C:\Users\Edwin Caraos\Desktop\3RD YR\web\ynaa.jpg">
+
+    body {
+      margin: 0;
+      box-sizing: border-box;
+    }
+
+    .container {
+      line-height: 150%;
+    }
+
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 40px;
+      background-color: #b9936c;
+    }
+
+    .header h1 {
+      color: #e6e2d3;
+      font-size: 40px;
+      font-family: "Pacifico", cursive;
+    }
+
+    .header .social a {
+      padding: 10 30px;
+      font-size: 40px;
+      color: #c4b7a6;
+    }
+
+    .left {
+      float: left;
+      width: px;
+      margin:150px 50;
+      padding: 1em;
+    }
+
+    .content {
+      margin-left: 250px;
+      border-left: 15px solid 	#c4b7a6;
+      font-size: 20px;
+      padding: 5em;
+      overflow: hidden;
+    }
+
+    ul {
+      list-style-type: none;
+      margin: 20;
+      padding: 50;
+      font-family: sans-serif;
+    }
+
+    li a {
+      display: block;
+      color: #c4b7a6;
+      padding: 30px 40px;
+      font-size: 25px;
+      text-decoration: none;
+    }
+
+    li a.active {
+      background-color: #c4b7a6	;
+      color: white;
+    }
+
+    li a:hover:not(.active) {
+      background-color: #c4b7a6;
+      color:  #dac292
+    }
+    tr td i.fas {
+      display: block;
+      font-size: 150px;
+      text-align: center;
+    }
+
+    table {
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+      margin:60px 0;
+    }
+
+    td,
+    th {
+      border: 100px solid #b9936c;
+      padding: 60px;
+  
+    tr td i.fas {
+      display: block;
+      font-size: 150px;
+      text-align: center;
+    }
+
+    .footer {
+      padding: 250px 200px;
+      background-color: #c4b7a6;
+      color: white;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <header class="header">
+      <h1>Welcome to my Portfolio</h1>
+      <div class="social">
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+      </div>
+    </header>
+    <aside class="left">
+      <img src="C:\Users\Edwin Caraos\Desktop\3RD YR\web" width="160px" />
+      <ul>
+        <li><a class="active" href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <br><br>
+      <p>"Be the best version of your self!</p>
+    </aside>
+    <main class="content">
+      <h2>About Me</h2>
+      <p>Thank you for your interest, here is a brief description of me.</p>
+      <p>Name: Marnel Czarina Mae B. Caraos
+        <p>Age: 21
+        <p>Address: Poblacion West Alitagtag, Batangas</p>
+        <p>I currently studying in Batangas State University. I am 4th year student, taking Bachelor of Science in Information Technology Major in Network Technology. Some Programming Language I know are c++, php, java, and phython.</p>
+        <p> Student in Batangas State University Alangilan </p>
+      </p>
+      <h2>Projects</h2>
+      <p> => New Normal Online Voting </p>
+      <p> => Online Voting System</p>
+      <p> => Clinic Management System</p>
+      <p> => Smart Parking System</p>
+      <hr><br>
+      <h2>Contact</h2>
+      <table>
+        
+        <tr>
+      </table>
+      <form>
+        <label>Email: <input type="text" name="email"></label><br>
+        <label> Mobile: <input type="text" name="mobile"> </label><br>
+        <textarea name="comments" rows="4">Enter your message
